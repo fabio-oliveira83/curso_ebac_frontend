@@ -10,7 +10,7 @@ form.addEventListener('submit', function(e){
     let inteiroA = parseInt(campoA.value);
     let inteiroB = parseInt(campoB.value);
     
-    let mensagemSucesso = `Muito Bem! O valor B = ${inteiroA} é maior que o valor A = ${inteiroB}! `;
+    let mensagemSucesso = `Muito Bem! O valor B = ${inteiroB} é maior que o valor A = ${inteiroA}! `;
     let mensagemErro = document.getElementsByClassName('.error-message');
    
 
