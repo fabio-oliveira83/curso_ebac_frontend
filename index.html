@@ -1,0 +1,24 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compara Valores</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compare os Valores</h1>
+        <h2>Para o formulário ser válido, o <b>Valor B</b> deve ser maior que o <b>Valor A</b></h2>
+        <form id="form-compare">
+            
+            <input id="campo-a" type="number" placeholder="Valor A" required >
+            
+            <input id="campo-b" type="number" placeholder="Valor B" required>
+            <button id="btn-resultado" type="submit">Resultado</button>        
+        </form>
+        <p class="mensagem-final">ParabénSSS!!!  O numero é valido pq B é maior que A !</p>
+        <p class="error-message">"Ops, os valores digitados são <b>iguais ou Menores</b> que o Valor B. Tente Novamente"  </p>
+    </div>
+    <script src="./main.js" ></script>
+</body>
+</html>
